@@ -83,51 +83,51 @@ public class OrderPage extends TestBase {
 
 	{
 
-		loginPage.Order();
+		loginPage.Order(); // This Method Will Call Login method
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", AddMalabar);
+		js.executeScript("arguments[0].click();", AddMalabar); // It will click on Malabar Parata Add Button
 
 		Thread.sleep(2000);
-		Increase.click();
+		Increase.click(); // It will Increase 1 Value 1+1= 2
 		Thread.sleep(2000);
 		String AmountofMalabar1 = Amount.getText();
 		System.out.println(AmountofMalabar1);
 
-		Decrease.click();
+		Decrease.click(); // It will Decrease 1 Value 2-1=1
 		String AmountofMalabar = Amount.getText();
 		System.out.println(AmountofMalabar);
 
 		Thread.sleep(2000);
-		Pizzas.click();
+		Pizzas.click(); // It will Click On Pizza & Sizes button
 
 		Thread.sleep(3000);
 
 		Actions action = new Actions(driver);
-		action.moveToElement(AddforVegPizza).click().perform();
+		action.moveToElement(AddforVegPizza).click().perform(); // It will add Vege Garden Loaded Piza
 		Thread.sleep(3000);
 
-		action.moveToElement(Inch).click().perform();
+		action.moveToElement(Inch).click().perform(); // it Will Add 13 inch Pizza
 
-		AddforInch.click();
+		AddforInch.click(); // it Will Add 13 inch Pizza add Button
 
-		Basket.click();
+		Basket.click(); // It Will Click On Basket
 
 		Thread.sleep(1000);
 		String s = Keys.chord(Keys.CONTROL, "a");
 		AddNo.sendKeys(s);
 		AddNo.sendKeys(Keys.DELETE);
-		AddNo.sendKeys("3");
+		AddNo.sendKeys("3"); // It will Add 3 Pizza
 
-		Addmoreitm.click();
-		//Thread.sleep(1000);
-		AddApple.click();
-		Basket.click();
+		Addmoreitm.click(); // It will Click On Add more Iteam
+		// Thread.sleep(1000);
+		AddApple.click(); // It will add 1 Apple
+		Basket.click(); // Again It comes to Basket
 
-		js.executeScript("arguments[0].value='Thanks for your order'", Notes);
+		js.executeScript("arguments[0].value='Thanks for your order'", Notes); // It will Write Note
 
 		Thread.sleep(2000);
-		Checkout.click();
+		Checkout.click(); // It will Click On Checkout
 
 		return AmountofMalabar;
 
@@ -135,15 +135,15 @@ public class OrderPage extends TestBase {
 
 	public String Proceed() throws InterruptedException {
 
-		this.addItem();
+		this.addItem(); // It will call AddItem Button
 		Thread.sleep(2000);
 
-		Name.sendKeys("Rahul Patil");
-		Mobileno.sendKeys("9638100056");
+		Name.sendKeys("Rahul Patil"); // It will Send Name
+		Mobileno.sendKeys("9638100056"); // Its Send Mobile No.
 
-		Proceed.click();
+		Proceed.click(); // It will Proceed Further
 
-		String totleamount = TotleAmount.getText();
+		String totleamount = TotleAmount.getText(); // it will get Title amount
 
 		return totleamount;
 	}

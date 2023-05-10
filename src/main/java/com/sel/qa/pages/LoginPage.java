@@ -41,20 +41,22 @@ public class LoginPage extends TestBase {
 	// Actions:
 
 	public String Order() {
-		Pickup.click();
-		Orderforlatter.click();
+		 
+		Pickup.click();  //   Click On Pickup Button
+		Orderforlatter.click();  //  Click On Order For Later Button
 		new WebDriverWait(driver, 20)
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@id='future_day']"))).click();
+	    .until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@id='future_day']"))).click();
 
 		Select dropdown = new Select(Day);
-		dropdown.selectByVisibleText("Sunday (14th May, 23)");
+		dropdown.selectByVisibleText("Sunday (14th May, 23)");  // Select Date From DropDown
 
 		Select dropdown1 = new Select(Time);
-		dropdown1.selectByVisibleText("03:00 PM");
+		dropdown1.selectByVisibleText("03:00 PM");  // Select Time From DropDown
 
-		Finalorder.click();
 
-		String title = driver.getTitle();
+		Finalorder.click();    //  Click On Order For Later Button
+
+		String title = driver.getTitle();   // It Will Get Title Of New Page
 		return title;
 
 	}

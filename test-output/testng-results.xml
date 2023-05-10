@@ -2,96 +2,96 @@
 <testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-10T13:08:48Z" name="Suite" finished-at="2023-05-10T13:08:48Z" duration-ms="0">
+  <suite started-at="2023-05-10T15:53:59Z" name="Suite" finished-at="2023-05-10T15:53:59Z" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- Suite -->
-  <suite started-at="2023-05-10T13:07:29Z" name="Suite (1)" finished-at="2023-05-10T13:08:18Z" duration-ms="48923">
+  <suite started-at="2023-05-10T15:52:37Z" name="Suite (1)" finished-at="2023-05-10T15:53:28Z" duration-ms="51058">
     <groups>
     </groups>
-    <test started-at="2023-05-10T13:07:29Z" name="Test" finished-at="2023-05-10T13:08:18Z" duration-ms="48923">
+    <test started-at="2023-05-10T15:52:37Z" name="Test" finished-at="2023-05-10T15:53:28Z" duration-ms="51058">
       <class name="com.sel.qa.testCases.OrderPageTest">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:37:29Z" name="Beforesuite" finished-at="2023-05-10T18:37:29Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:22:37Z" name="Beforesuite" finished-at="2023-05-10T21:22:37Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:37:29Z" name="setUp1" finished-at="2023-05-10T18:37:31Z" duration-ms="2073" status="PASS">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:22:37Z" name="setUp1" finished-at="2023-05-10T21:22:39Z" duration-ms="2090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method signature="Amountvalidate()[pri:1, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:37:31Z" name="Amountvalidate" finished-at="2023-05-10T18:37:51Z" duration-ms="20045" status="PASS">
+        <test-method signature="Amountvalidate()[pri:1, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:22:39Z" name="Amountvalidate" finished-at="2023-05-10T21:23:00Z" duration-ms="21313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Amountvalidate -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:37:51Z" name="teardown" finished-at="2023-05-10T18:37:52Z" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:23:00Z" name="teardown" finished-at="2023-05-10T21:23:01Z" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:37:52Z" name="setUp1" finished-at="2023-05-10T18:37:54Z" duration-ms="2108" status="PASS">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:23:01Z" name="setUp1" finished-at="2023-05-10T21:23:03Z" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method signature="dateandtimevalidate()[pri:2, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:37:54Z" name="dateandtimevalidate" finished-at="2023-05-10T18:38:18Z" depends-on-methods="com.sel.qa.testCases.OrderPageTest.Amountvalidate" duration-ms="24238" status="PASS">
+        <test-method signature="dateandtimevalidate()[pri:2, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:23:03Z" name="dateandtimevalidate" finished-at="2023-05-10T21:23:28Z" depends-on-methods="com.sel.qa.testCases.OrderPageTest.Amountvalidate" duration-ms="24850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateandtimevalidate -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:38:18Z" name="teardown" finished-at="2023-05-10T18:38:18Z" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:23:28Z" name="teardown" finished-at="2023-05-10T21:23:28Z" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T18:38:18Z" name="Aftersuite" finished-at="2023-05-10T18:38:18Z" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.sel.qa.testCases.OrderPageTest@eadd4fb]" started-at="2023-05-10T21:23:28Z" name="Aftersuite" finished-at="2023-05-10T21:23:28Z" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->
       </class> <!-- com.sel.qa.testCases.OrderPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite (1) -->
-  <suite started-at="2023-05-10T13:07:24Z" name="Suite (0)" finished-at="2023-05-10T13:07:29Z" duration-ms="5382">
+  <suite started-at="2023-05-10T15:52:30Z" name="Suite (0)" finished-at="2023-05-10T15:52:37Z" duration-ms="6279">
     <groups>
     </groups>
-    <test started-at="2023-05-10T13:07:24Z" name="Test" finished-at="2023-05-10T13:07:29Z" duration-ms="5382">
+    <test started-at="2023-05-10T15:52:30Z" name="Test" finished-at="2023-05-10T15:52:37Z" duration-ms="6279">
       <class name="com.sel.qa.testCases.LoginPageTest">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T18:37:23Z" name="Beforesuite" finished-at="2023-05-10T18:37:24Z" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T21:22:30Z" name="Beforesuite" finished-at="2023-05-10T21:22:30Z" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T18:37:24Z" name="setUp" finished-at="2023-05-10T18:37:27Z" duration-ms="3856" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T21:22:30Z" name="setUp" finished-at="2023-05-10T21:22:35Z" duration-ms="4586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T18:37:27Z" name="loginPageTitleTest" finished-at="2023-05-10T18:37:29Z" duration-ms="1320" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T21:22:35Z" name="loginPageTitleTest" finished-at="2023-05-10T21:22:36Z" duration-ms="1459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T18:37:29Z" name="teardown" finished-at="2023-05-10T18:37:29Z" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T21:22:36Z" name="teardown" finished-at="2023-05-10T21:22:37Z" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T18:37:29Z" name="Aftersuite" finished-at="2023-05-10T18:37:29Z" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.sel.qa.testCases.LoginPageTest@2a693f59]" started-at="2023-05-10T21:22:37Z" name="Aftersuite" finished-at="2023-05-10T21:22:37Z" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->
       </class> <!-- com.sel.qa.testCases.LoginPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite (0) -->
-  <suite started-at="2023-05-10T13:08:18Z" name="Suite (2)" finished-at="2023-05-10T13:08:48Z" duration-ms="29436">
+  <suite started-at="2023-05-10T15:53:28Z" name="Suite (2)" finished-at="2023-05-10T15:53:59Z" duration-ms="30820">
     <groups>
     </groups>
-    <test started-at="2023-05-10T13:08:18Z" name="Test" finished-at="2023-05-10T13:08:48Z" duration-ms="29436">
+    <test started-at="2023-05-10T15:53:28Z" name="Test" finished-at="2023-05-10T15:53:59Z" duration-ms="30820">
       <class name="com.sel.qa.testCases.CheckoutPageTest">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T18:38:18Z" name="Beforesuite" finished-at="2023-05-10T18:38:18Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T21:23:28Z" name="Beforesuite" finished-at="2023-05-10T21:23:28Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="setUp2()[pri:0, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T18:38:18Z" name="setUp2" finished-at="2023-05-10T18:38:20Z" duration-ms="2016" status="PASS">
+        <test-method is-config="true" signature="setUp2()[pri:0, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T21:23:28Z" name="setUp2" finished-at="2023-05-10T21:23:30Z" duration-ms="2281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp2 -->
-        <test-method signature="successfullyorder()[pri:1, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T18:38:20Z" name="successfullyorder" finished-at="2023-05-10T18:38:48Z" duration-ms="27416" status="PASS">
+        <test-method signature="successfullyorder()[pri:1, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T21:23:30Z" name="successfullyorder" finished-at="2023-05-10T21:23:59Z" duration-ms="28536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfullyorder -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T18:38:48Z" name="Aftersuite" finished-at="2023-05-10T18:38:48Z" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.sel.qa.testCases.CheckoutPageTest@3cce5371]" started-at="2023-05-10T21:23:59Z" name="Aftersuite" finished-at="2023-05-10T21:23:59Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->

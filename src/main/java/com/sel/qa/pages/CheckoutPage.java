@@ -18,8 +18,6 @@ public class CheckoutPage extends TestBase {
 	@FindBy(xpath = "(//button[text()='Continue to checkout'])[2]")
 	WebElement Continuetocheckout;
 
-	// div[text()='Your order has been Created.']
-
 	@FindBy(xpath = "//div[text()='Your order has been Created.']")
 	WebElement Ordersuceess;
 
@@ -29,14 +27,14 @@ public class CheckoutPage extends TestBase {
 
 	public String CheckoutSuccees() throws InterruptedException {
 		Contactpage1 = new OrderPage();
-		Contactpage1.Proceed();
+		Contactpage1.Proceed(); // It will Proceed Method
 		Thread.sleep(1000);
 
-		Continuetocheckout.click();
+		Continuetocheckout.click(); // It will Click on Continue to Checkout
 
 		Thread.sleep(1000);
 
-		String ordercreated = Ordersuceess.getText();
+		String ordercreated = Ordersuceess.getText(); // It will Get Success Massage
 
 		return ordercreated;
 	}

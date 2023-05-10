@@ -39,6 +39,6 @@ public class CheckoutPageTest extends TestBase {
 		System.out.println(ordercreated);
 
 		Assert.assertEquals(ordercreated, "Your order has been Created.");
-   //+++++++++++++++++++++++++++++++
+ 
 	}
 }
