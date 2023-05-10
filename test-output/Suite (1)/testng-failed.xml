@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (1)]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.sel.qa.testCases.OrderPageTest">
+        <methods>
+          <include name="Amountvalidate"/>
+          <include name="teardown"/>
+          <include name="dateandtimevalidate"/>
+          <include name="Beforesuite"/>
+          <include name="Aftersuite"/>
+          <include name="setUp1"/>
+        </methods>
+      </class> <!-- com.sel.qa.testCases.OrderPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->
