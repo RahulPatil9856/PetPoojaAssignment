@@ -23,9 +23,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
-	//public static WebDriverWait wait;
-	//public static EventFiringWebDriver e_driver;
-	//public static WebEventListner eventListner;
+	
 	
   public  ExtentReports extent ;
   public  ExtentSparkReporter sparkreporter ;
